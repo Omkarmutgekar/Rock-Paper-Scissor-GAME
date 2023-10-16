@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor Game</title>
+</head>
+<body>
+    <div class="score-panel">
+     <div class="logo">
+        <p class="logo-txt">ROCK</p>
+        <p class="logo-txt">PAPER</p>
+        <p class="logo-txt">SCISSORS</p>
+     </div>
+     <div class="comp-card">
+        <p class="score-title">COMPUTER SCORE</p>
+        <p id="comp-score">0</p>
+     </div>
+     <div class="player-card">
+        <p class="score-title">YOUR SCORE</p>
+        <p id="player-score">0</p>
+     </div>
+    </div>
+
+    <div class="main-game">
+      <div class="info">
+         <p class="user">you picked</p>
+         <p class="computer">pc picked</p>
+      </div>
+      <div class="options-area">
+         <img class="triangle" src="images/triangle.png" alt="">
+         <div class="rock-opt opt">
+            <div class="item">
+               <img src="images/Rock.png" alt="">
+            </div>
+         </div>
+         <div class="paper-opt opt">
+            <div class="item">
+               <img src="images/paper.png" alt="">
+            </div>
+         </div>
+         <div class="sci-opt opt">
+            <div class="item">
+               <img src="images/Scissors.png" alt="">
+            </div>
+         </div>
+         <div class="rock-opt opt-comp">
+            <div class="item">
+               <img src="images/Rock.png" alt="">
+            </div>
+         </div>
+         <div class="paper-opt opt-comp">
+            <div class="item">
+               <img src="images/paper.png" alt="">
+            </div>
+         </div>
+         <div class="sci-opt opt-comp">
+            <div class="item">
+               <img src="images/Scissors.png" alt="">
+            </div>
+         </div>
+      </div>
+      <div class="btn-div">
+         <button class="rule-btn">Rules</button>
+         <button class="next-btn">next</button>
+      </div>
+      <div class="rule-div">
+         <div>
+            <img class="close-rule" src="images/X.png" alt="">
+         </div>
+         <img class="rule-img " src="images/Rule.png" alt="">
+      </div>
+      <div class="winner-bg">
+         <div class="elipse"></div>
+         <div class="elipse2"></div>
+         <div class="elipse3"></div>
+      </div>
+      <div class="win-modal">
+         <div class="win-quote">
+            <p class="quote-1">you win</p>
+            <p class="quote-2">against pc</p>
+         </div>
+         <button class="play-again-btn">play again</button>
+      </div>
+      
+    </div>
+    
+    <div class="hurray-div">
+       <div class="reward-img">
+         <img src="images/stars.png" alt="">
+         <img class="cup" src="images/cup.png" alt="">
+       </div>
+      <div class="reward-txt">
+      <p class="hurray-txt">hurray !!</p>
+      <p class="won-txt">you won the game</p>
+      </div>
+      <button class="play-btn2">play again</button>
+   </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
